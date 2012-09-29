@@ -19,6 +19,7 @@
         <div data-role="page" id="home" data-theme="b">
             <div data-role="header">
                 <h1>Поиск билетов УЗ</h1>
+                <a href="#history" id="show_history" data-role="button" data-theme="a" data-icon="star" data-iconpos="notext" class="ui-btn-right">История</a>
             </div>
             <div data-role="content">
              <form id="search_form" action="" method="POST">
@@ -94,6 +95,17 @@
         <div data-role="content" id="result_content">
             
         </div>
+        </div>
+        <div data-role="page" id="history" data-theme="c"  data-add-back-btn="true">
+            <div data-role="header">
+                <h1>История запросов</h1>
+                <a href="" id="del_history" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Очистить</a>
+            </div>
+            <div data-role="content">
+            <ul data-role="listview" id="history_list">
+                
+            </ul>        
+            </div>
         </div>
         
         <!-- The following page demonstrates basic user interaction. -->
