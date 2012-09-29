@@ -7,7 +7,7 @@
     <ProjectName>RailwayTickets</ProjectName>
     <IsRunnable>true</IsRunnable>
     <TemplateAppName>Cordova200</TemplateAppName>
-    <AndroidPermissions>android.permission.INTERNET;android.permission.ACCESS_NETWORK_STATE</AndroidPermissions>
+    <AndroidPermissions>android.permission.INTERNET;android.permission.WRITE_EXTERNAL_STORAGE;android.permission.ACCESS_NETWORK_STATE</AndroidPermissions>
     <DeviceOrientations>Portrait;Landscape</DeviceOrientations>
     <iOSStatusBarStyle>Default</iOSStatusBarStyle>
   </PropertyGroup>
