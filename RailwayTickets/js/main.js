@@ -87,6 +87,9 @@ function swapStations(){
     v=$('#from_station').val();
     $('#from_station').val($('#to_station').val());
     $('#to_station').val(v);
+    v=$('#from_station_id').val();
+    $('#from_station_id').val($('#to_station_id').val());
+    $('#to_station_id').val(v);
 }
 
 function search(){
