@@ -61,7 +61,6 @@
     <Content Include="jquery-mobile\jquery-1.7.2.min.js" />
     <Content Include="jquery-mobile\jquery.mobile-1.1.0.min.css" />
     <Content Include="jquery-mobile\jquery.mobile-1.1.0.min.js" />
-    <Content Include="js\hello-world.js" />
     <Content Include="js\jqm-datebox.comp.datebox.min.js" />
     <Content Include="js\jquery.mobile.datebox.i18n.ru.utf8.js" />
     <Content Include="js\main.js" />
